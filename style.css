@@ -124,3 +124,54 @@ h3,h4,h1{
     text-decoration: double;
 
 }
+#kk{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+#kk{
+    background-color: black;
+}
+.box{
+    width : 70vh;
+    height : 50px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; background-color: rgb(247, 236, 217);
+}
+button{
+    font-size: 30px;
+    font-style: bold;
+    border-radius : 30%;
+    border-width: 3px;
+    border-color: white;
+    border-style: groove;
+    height : 10vh;
+    width : 250px;
+    background-color: rgb(236, 56, 6);
+    color : white;
+
+}
+marquee{
+    padding : 2px;
+    direction:"right";
+     width:100vh;
+    background-color:"#1e5f35";
+    height:80px;
+    border-width: 4px;
+    border-color: rgb(240, 33, 10);
+    border-style: double;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(2);
+}
+#output{
+    white-space: pre-line;
+    color : yellow;
+    font-size: 30px;
+    font-style: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
